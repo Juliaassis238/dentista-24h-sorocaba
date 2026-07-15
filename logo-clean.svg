@@ -1,0 +1,9 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#1B3A26" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Ícone de dente minimalista -->
+    <path d="M256 80c-60 0-110 30-110 90 0 50 20 80 40 140 10 30 20 60 20 90 0 10 10 20 20 20s20-10 20-20c0-30 10-60 10-90 0 0 0 0 0 0s0 0 0 0c0 30 10 60 10 90 0 10 10 20 20 20s20-10 20-20c0-30 10-60 20-90 20-60 40-90 40-140 0-60-50-90-110-90z"/>
+    <!-- Brilho -->
+    <path d="M360 120l10 25 25 10-25 10-10 25-10-25-25-10 25-10z" fill="#1B3A26" stroke="none"/>
+  </g>
+  <text x="256" y="270" font-family="Fraunces, serif" font-size="64" font-weight="700" fill="#1B3A26" text-anchor="middle">24H</text>
+</svg>

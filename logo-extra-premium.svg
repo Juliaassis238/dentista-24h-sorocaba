@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .gold-text { font-family: 'Fraunces', serif; font-weight: 300; font-size: 38px; letter-spacing: 0.25em; fill: #1B3A26; }
+      .gold-sub { font-family: 'Jost', sans-serif; font-weight: 400; font-size: 12px; letter-spacing: 0.5em; fill: #1B3A26; text-transform: uppercase; }
+      .icon-stroke { stroke: #1B3A26; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Símbolo Extra Premium: Brasão/Monograma Minimalista -->
+  <g transform="translate(256, 180)">
+    <!-- Círculo externo fino e elegante -->
+    <circle cx="0" cy="0" r="100" class="icon-stroke" style="opacity: 0.3;"/>
+    
+    <!-- Ícone de Dente Estilizado em Linhas Geométricas de Luxo -->
+    <path d="M0-60 C-30-60 -50-40 -50 0 C-50 30 -40 50 -35 80 C-32 95 -30 110 -30 120 C-30 125 -25 130 -20 130 S-10 125 -10 120 C-10 110 -5 90 0 90 S10 110 10 120 C10 125 15 130 20 130 S30 125 30 120 C30 110 32 95 35 80 C40 50 50 30 50 0 C50-40 30-60 0-60 Z" class="icon-stroke" style="stroke-width: 4;"/>
+    
+    <!-- Detalhe de Brilho Diamante -->
+    <path d="M60-60 L65-45 L80-40 L65-35 L60-20 L55-35 L40-40 L55-45 Z" fill="#1B3A26"/>
+    
+    <!-- Linhas horizontais de equilíbrio -->
+    <line x1="-120" y1="0" x2="-80" y2="0" class="icon-stroke" style="opacity: 0.5;"/>
+    <line x1="80" y1="0" x2="120" y2="0" class="icon-stroke" style="opacity: 0.5;"/>
+  </g>
+
+  <!-- Tipografia de Grife -->
+  <text x="256" y="380" text-anchor="middle" class="gold-text">DENTISTAS</text>
+  <text x="256" y="415" text-anchor="middle" class="gold-sub">24H SOROCABA</text>
+</svg>

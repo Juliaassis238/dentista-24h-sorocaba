@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Verde Escuro Profundo -->
+  <defs>
+    <style>
+      .cls-1 { fill: #1B3A26; }
+      .cls-2 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 32px; letter-spacing: 0.15em; fill: #1B3A26; }
+      .cls-3 { font-family: 'Jost', sans-serif; font-weight: 300; font-size: 14px; letter-spacing: 0.4em; fill: #1B3A26; text-transform: uppercase; }
+    </style>
+  </defs>
+  
+  <!-- Ícone de Dente Minimalista de Luxo -->
+  <g transform="translate(256, 160)">
+    <path class="cls-1" d="M0-80 C-45-80 -80-55 -80 0 C-80 45 -60 70 -50 120 C-45 145 -40 170 -40 185 C-40 195 -32 203 -22 203 C-12 203 -4 195 -4 185 C-4 160 0 135 0 135 S4 160 4 185 C4 195 12 203 22 203 C32 203 40 195 40 185 C40 170 45 145 50 120 C60 70 80 45 80 0 C80-55 45-80 0-80 Z M0-68 C38-68 68-48 68 0 C68 38 52 58 43 105 C38 130 32 158 32 175 C32 178 30 180 28 180 C26 180 24 178 24 175 C24 150 18 120 18 120 C18 115 13 110 8 110 C3 110-2 115-2 120 C-2 120-8 150-8 175 C-8 178-10 180-12 180 C-14 180-16 178-16 175 C-16 158-22 130-27 105 C-36 58-52 38-52 0 C-52-48-22-68 0-68 Z"/>
+    <!-- Brilho/Estrela -->
+    <path class="cls-1" d="M65-65 L70-50 L85-45 L70-40 L65-25 L60-40 L45-45 L60-50 Z"/>
+  </g>
+
+  <!-- Tipografia Premium -->
+  <text x="256" y="400" text-anchor="middle" class="cls-2">DENTISTAS</text>
+  <text x="256" y="435" text-anchor="middle" class="cls-3">24 HORAS · SOROCABA</text>
+</svg>

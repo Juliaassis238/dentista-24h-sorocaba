@@ -1,0 +1,45 @@
+Análise das imagens do site dentista-24h-sorocaba
+
+Arquivo: /home/ubuntu/dentista-24h-sorocaba/images/IMG_3098.JPG
+Descrição: sorriso feminino com dentes amarelados.
+Classificação: antes.
+Par correto com: IMG_3099.JPG
+
+Arquivo: /home/ubuntu/dentista-24h-sorocaba/images/IMG_3099.JPG
+Descrição: sorriso feminino bonito, alinhado e branco.
+Classificação: depois.
+Par correto com: IMG_3098.JPG
+
+Arquivo: /home/ubuntu/dentista-24h-sorocaba/images/IMG_3100.JPG
+Descrição: sorriso masculino com dentes quebrados/escurecidos.
+Classificação: antes.
+Par correto com: IMG_3101.JPG
+
+Arquivo: /home/ubuntu/dentista-24h-sorocaba/images/IMG_3101.JPG
+Descrição: sorriso masculino bonito, alinhado e branco.
+Classificação: depois.
+Par correto com: IMG_3100.JPG
+
+Arquivo: /home/ubuntu/dentista-24h-sorocaba/images/IMG_3102.JPG
+Descrição: sorriso feminino com dentes desalinhados/abertura.
+Classificação: antes.
+Par correto com: IMG_3103.JPG
+
+Arquivo: /home/ubuntu/dentista-24h-sorocaba/images/IMG_3103.JPG
+Descrição: sorriso feminino bonito, alinhado e branco.
+Classificação: depois.
+Par correto com: IMG_3102.JPG
+
+Observação: O arquivo index.html estava usando IMG_3098.JPG incorretamente como fachada e como "depois". A fachada real deve ser outra ou essa imagem foi reaproveitada.
+Observação: img4-depois2.jpg é um rosto feminino sorrindo, pode ser usado se necessário, mas os pares acima já cobrem 3 casos.
+
+Pares Finais para Galeria:
+1. Antes: IMG_3098.JPG | Depois: IMG_3099.JPG
+2. Antes: IMG_3100.JPG | Depois: IMG_3101.JPG
+3. Antes: IMG_3102.JPG | Depois: IMG_3103.JPG
+
+Tarefa de Imagem:
+- Inserir arte_neutra_dentistas_24hs.png no início do site (topo da hero ou logo após o marquee).
+- Inserir arte_neutra_dentistas_24hs.png abaixo da seção "Antes e Depois".
+- A usuária disse "mantenha ela abaixo dos 'antes e depois' como já está lá". Vou verificar onde ela está agora.
+No index.html lido, na linha 1209, tem a imagem "arte-principal.png". Vou verificar se é a mesma ou se devo substituir.

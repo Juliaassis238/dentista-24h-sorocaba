@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head><link as_="image" href="./images/logo-ultra-luxury.webp" rel="preload"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover" name="viewport"/>
+<title>Dentistas 24hs Sorocaba — Urgência Odontológica 24 Horas</title>
+<meta content="Clínica Dentistas 24hs em Sorocaba. Urgências odontológicas 24 horas, todos os dias, incluindo sábados, domingos e feriados. Atendimento particular na Rua Professor Toledo, 264 - Centro." name="description"/>
+<link href="./images/logo-ultra-luxury.webp" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Cormorant+Garamond:wght@500;600;700&amp;family=Jost:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+/* =========================================================
+   DENTISTAS 24HS SOROCABA — identidade rosé, chique, editorial
+========================================================= */
+
+:root{
+  --bg: #F5F5F5;
+  --bg-alt: #ECECEC;
+  --card: #FFFFFF;
+  --card-soft: #FAFAFA;
+  --card-border: #D9D9D9;
+  --ink: #1A1A1A;
+  --ink-dim: #4A4A4A;
+  --ink-faint: #757575;
+  --rose: #2D5A3D;
+  --rose-deep: #1B3A26;
+  --rose-bright: #4A7C5E;
+  --rose-dim: #E8F0EB;
+  --gold: #5A7A6A;
+  --line: #D0D0D0;
+
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-script: 'Cormorant Garamond', serif;
+  --font-body: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --container: 1200px;
+  --radius: 4px;
+  --radius-lg: 2px;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+
+body{width:100%;overflow-x:hidden;
+  margin:0;
+  background:
+    radial-gradient(1000px 620px at 92% -6%, rgba(45,90,61,.08), transparent 62%),
+    radial-gradient(900px 560px at 4% 8%, rgba(90,122,106,.06), transparent 58%),
+    linear-gradient(180deg, #F5F5F5 0%, #F0F0F0 45%, #F5F5F5 100%);
+  background-attachment:fixed;
+  color:var(--ink);
+  font-family:var(--font-body);
+  font-size:16px;
+  font-weight:300;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  position:relative;
+}
+body::before{
+  content:"";
+  position:fixed; inset:0; z-index:-1; pointer-events:none;
+  background-image:
+    linear-gradient(rgba(26,26,26,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,26,26,.035) 1px, transparent 1px);
+  background-size:64px 64px;
+  mask-image:radial-gradient(circle at 50% 0%, black, transparent 72%);
+  -webkit-mask-image:radial-gradient(circle at 50% 0%, black, transparent 72%);
+  opacity:.6;
+}
+
+img{ max-width:100%; display:block; }
+a{ color:inherit; text-decoration:none; }
+ul{ list-style:none; margin:0; padding:0; }
+button{ font-family:inherit; cursor:pointer; }
+
+.container{
+  width:100%;
+  max-width:var(--container);
+  margin:0 auto;
+  padding:0 24px;
+}
+
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-family:var(--font-body);
+  font-size:11.5px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--rose-deep);
+  font-weight:600;
+  margin-bottom:16px;
+}
+.eyebrow::before{
+  content:"";
+  width:22px;height:1px;
+  background:var(--gold);
+}
+
+h1,h2,h3,h4{
+  font-family:var(--font-display);
+  font-weight:500;
+  margin:0;
+  color:var(--ink);
+}
+
+.section-title{
+  font-size:clamp(32px,4.6vw,52px);
+  line-height:1.08;
+  letter-spacing:.005em;
+  font-weight:500;
+}
+.section-title em{
+  font-style:italic;
+  font-family:var(--font-script);
+  font-weight:600;
+  color:var(--rose-deep);
+}
+.section-sub{
+  color:var(--ink-dim);
+  max-width:480px;
+  margin-top:16px;
+  font-size:15.5px;
+  font-weight:300;
+}
+
+.section{
+  padding:120px 0;
+  position:relative;
+}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:40px;
+  margin-bottom:60px;
+  flex-wrap:wrap;
+}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap:11px;
+  padding:16px 30px;
+  border-radius:999px;
+  font-weight:500;
+  font-size:13.5px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  border:1px solid transparent;
+  transition:transform .3s ease, box-shadow .3s ease, background .3s ease, color .3s ease, border-color .3s ease;
+  white-space:nowrap;
+  font-family:var(--font-body);
+}
+.btn-primary{
+  background:linear-gradient(135deg, var(--rose-bright), var(--rose-deep));
+  color:#fff;
+  box-shadow:0 0 0 0 rgba(45,90,61,.5);
+}
+.btn-primary:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 32px -10px rgba(27,58,38,.6);
+}
+.btn-ghost{
+  background:transparent;
+  color:var(--ink);
+  border-color:var(--card-border);
+}
+.btn-ghost:hover{
+  border-color:var(--ink);
+  transform:translateY(-2px);
+}
+.btn-dark{
+  background:var(--ink);
+  color:#fff;
+}
+.btn-dark:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 32px -10px rgba(26,26,26,.5);
+}
+.btn-block{ width:100%; justify-content:center; }
+
+/* ---------- Navbar ---------- */
+.navbar{
+  position:fixed;
+  top:0; left:0; right:0;
+  z-index:1000;
+  padding:12px 0;
+  transition:all .35s ease;
+  border-bottom:1px solid rgba(255,255,255,0.05);
+  background: rgba(10,15,12,0.4);
+  backdrop-filter: blur(20px);
+}
+.navbar.scrolled{
+  padding:12px 0;
+  background:rgba(245,245,245,.88);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-bottom-color:var(--line);
+}
+.nav-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.logo img{
+  height:40px;
+  width:auto;
+  transition:height .3s ease;
+  filter: none;
+}
+.navbar.scrolled .logo img{ height:36px; }
+.logo-word{
+  font-family:var(--font-display);
+  font-weight:600;
+  font-size:18px;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  line-height:1.15;
+  color:var(--ink);
+}
+.logo-word span{
+  display:block;
+  font-family:var(--font-body);
+  font-size:9.5px;
+  letter-spacing:.32em;
+  color:var(--rose-deep);
+  font-weight:500;
+  margin-top:2px;
+}
+
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:36px;
+}
+.nav-links a{
+  font-size:12.5px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--ink-dim);
+  font-weight:500;
+  position:relative;
+  padding-bottom:4px;
+}
+.nav-links a::after{
+  content:"";
+  position:absolute; left:0; bottom:0;
+  width:0; height:1px;
+  background:var(--rose-deep);
+  transition:width .3s ease;
+}
+.nav-links a:hover{ color:var(--ink); }
+.nav-links a:hover::after{ width:100%; }
+
+.nav-cta{ display:flex; align-items:center; gap:16px; }
+.nav-phone{
+  display:flex; flex-direction:column; text-align:right;
+  font-size:11px; color:var(--ink-faint);
+  letter-spacing:.04em;
+}
+.nav-phone strong{ color:var(--ink); font-size:15px; letter-spacing:.02em; font-family:var(--font-display); font-weight:500; }
+
+.burger{
+  display:none;
+  width:44px;height:44px;
+  border-radius:50%;
+  border:1px solid var(--card-border);
+  background:var(--card);
+  align-items:center; justify-content:center;
+  flex-direction:column;
+  gap:5px;
+}
+.burger span{
+  width:18px;height:1px;background:var(--ink);
+  transition:transform .3s ease, opacity .3s ease;
+}
+.burger.open span:nth-child(1){ transform:translateY(6px) rotate(45deg); }
+.burger.open span:nth-child(2){ opacity:0; }
+.burger.open span:nth-child(3){ transform:translateY(-6px) rotate(-45deg); }
+
+.mobile-menu{
+  display:none;
+  position:fixed;
+  inset:0;
+  top:0;
+  background:var(--bg);
+  z-index:999;
+  padding:120px 30px 40px;
+  flex-direction:column;
+  gap:26px;
+  transform:translateY(-100%);
+  transition:transform .45s cubic-bezier(.65,0,.35,1);
+}
+.mobile-menu.open{ transform:translateY(0); display:flex; }
+.mobile-menu a{
+  font-family:var(--font-display);
+  font-size:22px;
+  font-weight:500;
+  border-bottom:1px solid var(--line);
+  padding-bottom:12px;
+  letter-spacing: 0.02em;
+}
+.mobile-menu .btn{ 
+  margin-top:20px; 
+  font-size: 12px;
+  padding: 18px 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* ---------- Marquee strip ---------- */
+.marquee-strip{
+  background:var(--ink);
+  color:#E8F0EB;
+  overflow:hidden;
+  position:relative;
+}
+.marquee-track{
+  display:flex;
+  width:max-content;
+  animation:marquee 30s linear infinite;
+}
+.marquee-track span{
+  display:inline-flex;
+  align-items:center;
+  font-family:var(--font-body);
+  font-weight:500;
+  font-size:12.5px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  padding:12px 30px;
+  white-space:nowrap;
+}
+.marquee-track span::after{
+  content:"—";
+  margin-left:30px;
+  color:var(--rose-bright);
+}
+@keyframes marquee{
+  from{ transform:translateX(0); }
+  to{ transform:translateX(-50%); }
+}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 0;
+  overflow:hidden;
+  background: #000;
+}
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.55;
+  filter: grayscale(20%) contrast(1.1);
+}
+.hero-overlay-luxury {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(10,15,12,0.98) 0%, rgba(10,15,12,0.7) 100%);
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .hero-overlay-luxury {
+    background: linear-gradient(to bottom, rgba(26,26,26,0.9) 40%, rgba(26,26,26,0.5) 100%);
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  top:-20%; right:-8%;
+  width:620px; height:620px;
+  background:radial-gradient(circle, rgba(45,90,61,.12), transparent 70%);
+  pointer-events:none;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  bottom:-30%; left:-10%;
+  width:520px; height:520px;
+  background:radial-gradient(circle, rgba(90,122,106,.08), transparent 70%);
+  pointer-events:none;
+}
+.hero-watermark{
+  position:absolute;
+  top:-60px; right:-40px;
+  width:420px;
+  opacity:.06;
+  pointer-events:none;
+  z-index:0;
+}
+.hero-grid{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap:60px;
+  align-items:center;
+}
+.hero-title{
+  font-size:clamp(42px,6vw,74px);
+  line-height:1.04;
+  font-weight:500;
+  color: #fff;
+}
+.hero-title .line2{
+  font-family:var(--font-script);
+  font-style:italic;
+  font-weight:600;
+  color:var(--rose-deep);
+}
+.hero-lede{
+  color: rgba(255,255,255,0.88);
+  max-width:480px;
+  font-size:17.5px;
+  font-weight:300;
+  margin:26px 0 38px;
+}
+.hero-actions{
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-bottom:48px;
+}
+.hero-stats{
+  display:flex;
+  gap:42px;
+  flex-wrap:wrap;
+  border-top:1px solid var(--line);
+  padding-top:30px;
+}
+.hero-stat b{
+  font-family:var(--font-display);
+  font-size:32px;
+  font-weight:500;
+  display:block;
+  color:var(--ink);
+  line-height:1;
+}
+.hero-stat span{
+  font-size:11px;
+  color:var(--ink-faint);
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.hero-visual{
+  position:relative;
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  border:1px solid var(--card-border);
+  aspect-ratio:1/1;
+  isolation:isolate;
+  cursor:zoom-in;
+}
+.hero-visual img{
+  width:100%; height:100%; object-fit:cover;
+  background:var(--bg-alt);
+  filter:saturate(1.02) contrast(1.02);
+  transition:transform .7s ease;
+}
+.hero-visual:hover img{ transform:scale(1.04); }
+.hero-visual::after{
+  content:"";
+  position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(245,245,245,0) 42%, rgba(245,245,245,.94) 100%);
+}
+.hero-badge{
+  position:absolute;
+  left:22px; bottom:22px;
+  z-index:2;
+  background:rgba(255,255,255,.9);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(26,26,26,.1);
+  border-radius:2px;
+  padding:16px 20px;
+  display:flex;
+  align-items:center;
+  gap:13px;
+}
+.hero-badge .pulse{
+  width:11px;height:11px;border-radius:50%;
+  background:var(--rose-deep);
+  position:relative;
+}
+.hero-badge .pulse::after{
+  content:"";
+  position:absolute; inset:-6px;
+  border-radius:50%;
+  border:1px solid var(--rose-deep);
+  animation:pulse 1.8s ease-out infinite;
+}
+@keyframes pulse{
+  0%{ transform:scale(.6); opacity:.9; }
+  100%{ transform:scale(1.8); opacity:0; }
+}
+.hero-badge strong{ font-size:13.5px; display:block; font-family:var(--font-display); font-weight:500; }
+.hero-badge small{ color:var(--ink-faint); font-size:11.5px; }
+
+/* ---------- Reveal on scroll ---------- */
+.reveal{
+  opacity:0;
+  transform:translateY(30px);
+  transition:opacity .9s ease, transform .9s ease;
+}
+.reveal.in{ opacity:1; transform:translateY(0); }
+.reveal-delay-1{ transition-delay:.08s; }
+.reveal-delay-2{ transition-delay:.16s; }
+.reveal-delay-3{ transition-delay:.24s; }
+.reveal-delay-4{ transition-delay:.32s; }
+
+/* ---------- Services ---------- */
+.services{
+  background:var(--bg-alt);
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  background:var(--line);
+  border:1px solid var(--line);
+  overflow:hidden;
+}
+.service-card{
+  background:var(--card);
+  padding:40px 34px;
+  transition:background .35s ease, transform .35s ease;
+  position:relative;
+}
+.service-card:hover{
+  background:var(--ink);
+}
+.service-card:hover h3, .service-card:hover p{ color:#E8F0EB; }
+.service-card:hover .service-num{ color:var(--rose-bright); }
+.service-card:hover .tag{ color:var(--rose-bright); border-color:rgba(74,124,94,.3); }
+.service-num{
+  font-family:var(--font-display);
+  font-size:13px;
+  color:var(--ink-faint);
+  letter-spacing:.06em;
+}
+.service-card h3{
+  font-size:24px;
+  margin:20px 0 12px;
+  font-weight:500;
+  transition:color .35s ease;
+}
+.service-card p{
+  color:var(--ink-dim);
+  font-size:14px;
+  font-weight:300;
+  margin:0;
+  transition:color .35s ease;
+}
+.service-card .tag{
+  display:inline-block;
+  margin-top:20px;
+  font-size:10.5px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--rose-deep);
+  border:1px solid var(--rose-dim);
+  padding:6px 12px;
+  border-radius:999px;
+  transition:all .35s ease;
+}
+
+/* ---------- Gallery / Antes e Depois ---------- */
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:32px;
+}
+.gallery-item{
+  position:relative;
+  border-radius: 8px;
+  overflow:hidden;
+  border:1px solid rgba(27,58,38,0.1);
+  cursor:zoom-in;
+  aspect-ratio: 16/10;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.gallery-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(27,58,38,0.15);
+  border-color: var(--rose-bright);
+}
+.gallery-item .compare{
+  position:absolute; inset:0;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+.gallery-item img{
+  width:100%; height:100%; object-fit:cover;
+  transition:transform .6s ease;
+}
+.gallery-item:hover img{ transform:scale(1.07); }
+.gallery-item .lbl{
+  position:absolute;
+  bottom:16px;
+  font-size:11px;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+  padding:8px 16px;
+  border-radius:4px;
+  background:rgba(255,255,255,0.95);
+  backdrop-filter:blur(10px);
+  z-index:2;
+  font-weight:600;
+  color: var(--ink);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.gallery-item .lbl.antes{ left:16px; }
+.gallery-item .lbl.depois{ right:16px; background: var(--rose-deep); color: #fff; }
+
+.gallery-item .divider{
+  position:absolute; top:0; bottom:0; left:50%;
+  width:2px; background: #fff;
+  z-index:2;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.gallery-item .zoom-hint{
+  position:absolute; bottom:12px; right:12px;
+  font-size:10px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ink-dim);
+  background:rgba(255,255,255,.88);
+  padding:6px 11px; border-radius:999px;
+  z-index:2;
+  opacity:0; transition:opacity .3s ease;
+}
+.gallery-item:hover .zoom-hint{ opacity:1; }
+
+/* ---------- Lightbox ---------- */
+.lightbox{
+  position:fixed; inset:0;
+  background:rgba(26,26,26,.97);
+  z-index:2000;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:40px 20px;
+  backdrop-filter:blur(8px);
+}
+.lightbox.open{ display:flex; }
+.lightbox-inner{
+  max-width:min(940px,92vw);
+  width:100%;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:2px;
+  background:rgba(255,255,255,.1);
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.12);
+}
+.lightbox-inner.single{ grid-template-columns:1fr; max-width:min(760px,92vw); }
+.lightbox-inner .col{ background:var(--ink); position:relative; }
+.lightbox-inner img{ width:100%; height:100%; object-fit:contain; max-height:78vh; background:#1A1A1A; }
+.lightbox-inner .col span{
+  position:absolute; top:14px; left:14px;
+  font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+  background:rgba(255,255,255,.92); padding:6px 11px; border-radius:999px;
+  font-weight:500; z-index:2;
+}
+.lightbox-close{
+  position:absolute; top:26px; right:calc(4vw + 4px);
+  width:46px;height:46px;border-radius:50%;
+  background:var(--card); border:1px solid var(--card-border);
+  color:var(--ink); font-size:19px;
+  display:flex; align-items:center; justify-content:center;
+}
+.lightbox-caption{
+  position:absolute; bottom:26px; left:0; right:0;
+  text-align:center; color:rgba(255,255,255,.75);
+  font-size:12.5px; letter-spacing:.08em; text-transform:uppercase;
+}
+
+/* ---------- About / Team ---------- */
+.about{
+  background:var(--bg);
+}
+.about-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:80px;
+  align-items:center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about-photos{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  grid-template-rows:auto auto;
+  gap:16px;
+}
+.about-photos img{
+  border-radius:var(--radius-lg);
+  border:1px solid var(--card-border);
+  object-fit:cover;
+  width:100%; height:100%;
+  cursor:zoom-in;
+  transition:opacity .3s ease;
+}
+.about-photos img:hover{ opacity:.88; }
+.about-photos .big{ grid-row:1 / 3; aspect-ratio:3/4; }
+.about-photos .small{ aspect-ratio:4/3; }
+
+.about-copy p{ color:var(--ink-dim); font-size:16px; font-weight:300; margin:20px 0 32px; max-width:540px; }
+.feature-list{ display:grid; gap:22px; }
+.feature-item{ display:flex; gap:18px; align-items:flex-start; }
+.feature-icon{
+  width:46px; height:46px; flex:none;
+  border-radius:50%;
+  background:var(--card);
+  border:1px solid var(--card-border);
+  display:flex; align-items:center; justify-content:center;
+  color:var(--rose-deep);
+  font-family:var(--font-display);
+  font-size:16px;
+  font-weight:500;
+}
+.feature-item h4{ font-family:var(--font-body); font-weight:600; font-size:14.5px; text-transform:uppercase; letter-spacing:.04em; }
+.feature-item p{ color:var(--ink-dim); font-size:14px; font-weight:300; margin:5px 0 0; }
+
+/* ---------- Team ---------- */
+.team-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:24px;
+}
+.team-card{
+  background:var(--card);
+  border:1px solid var(--card-border);
+  border-radius:var(--radius-lg);
+  padding:34px;
+  display:flex;
+  gap:22px;
+  align-items:center;
+  transition:border-color .3s ease, transform .3s ease;
+}
+.team-card:hover{ border-color:var(--rose-bright); transform:translateY(-4px); }
+.team-avatar{
+  width:72px;height:72px;border-radius:50%;
+  background:linear-gradient(135deg, var(--rose-bright), var(--rose-deep));
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-display);
+  font-size:23px;
+  color:#fff;
+  font-weight:500;
+  flex:none;
+}
+.team-card h3{ font-size:21px; font-weight:500; }
+.team-card .role{ color:var(--rose-deep); font-size:11.5px; text-transform:uppercase; letter-spacing:.08em; margin:5px 0 10px; font-weight:500; }
+.team-card p{ color:var(--ink-dim); font-size:13.5px; font-weight:300; margin:0 0 12px; }
+.team-card a.tel{ font-size:13px; color:var(--ink); font-weight:500; display:inline-flex; align-items:center; gap:8px; }
+.team-card a.tel::before{ content:"—"; color:var(--rose-deep); }
+
+/* ---------- Stats band ---------- */
+.stats-band{
+  background:var(--ink);
+  padding:68px 0;
+}
+.stats-row{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+  text-align:center;
+}
+.stats-row b{
+  font-family:var(--font-display);
+  font-size:44px;
+  font-weight:500;
+  display:block;
+  color:#F8F0E8;
+}
+.stats-row b .accent{ color:var(--rose-bright); }
+.stats-row span{
+  color:rgba(248,240,232,.55);
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+/* ---------- Testimonials ---------- */
+.reviews-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+.review-card{
+  background:var(--card);
+  border:1px solid var(--card-border);
+  border-radius:var(--radius-lg);
+  padding:30px;
+}
+.stars{ color:var(--gold); letter-spacing:3px; font-size:14px; margin-bottom:16px; }
+.review-card p{ color:var(--ink-dim); font-size:14px; font-weight:300; margin:0 0 20px; font-style:italic; font-family:var(--font-script); font-size:18px; line-height:1.5; }
+.review-name{ font-size:12.5px; font-weight:500; }
+.review-src{ font-size:11px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.06em; }
+
+/* ---------- CTA band ---------- */
+.cta-band{
+  position:relative;
+  margin:0 auto;
+  max-width:var(--container);
+  border-radius:6px;
+  overflow:hidden;
+  padding:76px 54px;
+  background:linear-gradient(120deg, #FEFBF8, #F3E2D5 65%);
+  border:1px solid var(--card-border);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:40px;
+  flex-wrap:wrap;
+}
+.cta-band::before{
+  content:"";
+  position:absolute; inset:0;
+  background:radial-gradient(circle at 85% 30%, rgba(185,129,105,.25), transparent 55%);
+}
+.cta-band h2{ font-size:clamp(26px,3.4vw,38px); font-weight:500; position:relative; max-width:520px; }
+.cta-band .btns{ position:relative; display:flex; gap:14px; flex-wrap:wrap; }
+
+/* ---------- Contact ---------- */
+.contact-grid{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:50px;
+}
+.info-card{
+  background:var(--card);
+  border:1px solid var(--card-border);
+  border-radius:var(--radius-lg);
+  padding:32px;
+  margin-bottom:20px;
+}
+.info-card h4{
+  font-family:var(--font-body); font-weight:600;
+  text-transform:uppercase; font-size:11.5px; letter-spacing:.08em;
+  color:var(--ink-faint); margin-bottom:12px;
+}
+.info-card .val{ font-size:18px; font-weight:500; font-family:var(--font-display); }
+.info-card .val small{ display:block; color:var(--ink-dim); font-weight:300; font-size:13px; margin-top:6px; font-family:var(--font-body); }
+.info-list{ display:grid; gap:11px; }
+.info-list a{ font-size:14.5px; font-weight:400; color:var(--ink); }
+.info-list a:hover{ color:var(--rose-deep); }
+
+.location-card{
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  border:1px solid var(--card-border);
+  height:100%;
+  min-height:440px;
+  display:flex;
+  flex-direction:column;
+  background:var(--card);
+}
+.location-visual{
+  position:relative;
+  flex:1;
+  min-height:280px;
+  background:
+    radial-gradient(420px 320px at 60% 40%, rgba(185,129,105,.14), transparent 70%),
+    linear-gradient(150deg, #F6EBE1 0%, #EFDCCB 100%);
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.location-grid{
+  position:absolute; inset:0;
+  background-image:
+    linear-gradient(rgba(43,33,29,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(43,33,29,.06) 1px, transparent 1px);
+  background-size:36px 36px;
+  mask-image:radial-gradient(circle at 50% 45%, black 0%, transparent 72%);
+  -webkit-mask-image:radial-gradient(circle at 50% 45%, black 0%, transparent 72%);
+}
+.location-compass{
+  position:absolute;
+  top:18px; right:18px;
+  width:34px; height:34px;
+  border-radius:50%;
+  border:1px solid var(--card-border);
+  background:rgba(255,255,255,.85);
+  display:flex; align-items:center; justify-content:center;
+  font-size:10px;
+  color:var(--ink-faint);
+  font-family:var(--font-display);
+}
+.location-pin{
+  position:relative;
+  width:16px; height:16px;
+}
+.location-pin .pin-dot{
+  position:absolute; inset:0;
+  border-radius:50%;
+  background:var(--rose-deep);
+  box-shadow:0 0 0 6px rgba(185,129,105,.16), 0 6px 24px -4px rgba(185,129,105,.7);
+}
+.location-pin .pin-pulse{
+  position:absolute; inset:-14px;
+  border-radius:50%;
+  border:1px solid var(--rose-deep);
+  animation:pulse 2.2s ease-out infinite;
+}
+.location-city{
+  position:absolute;
+  left:24px; bottom:22px;
+  line-height:1.25;
+}
+.location-city strong{
+  display:block;
+  font-family:var(--font-display);
+  font-size:21px;
+  font-weight:500;
+}
+.location-city small{
+  color:var(--ink-faint);
+  font-size:11px;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+.location-info{
+  padding:26px 28px 28px;
+  border-top:1px solid var(--line);
+}
+.location-info h4{
+  font-family:var(--font-display);
+  font-size:19px;
+  font-weight:500;
+  margin-bottom:6px;
+}
+.location-info p{
+  color:var(--ink-dim);
+  font-size:14px;
+  font-weight:300;
+  margin:0 0 20px;
+}
+.location-actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.location-actions .btn{ padding:13px 22px; font-size:12.5px; }
+
+/* ---------- Footer ---------- */
+footer{
+  border-top:1px solid var(--line);
+  padding:64px 0 30px;
+  background:var(--bg-alt);
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.3fr .8fr .8fr 1fr;
+  gap:40px;
+  margin-bottom:50px;
+}
+.footer-brand .logo{ margin-bottom:14px; }
+.footer-brand p{ color:var(--ink-dim); font-size:13.5px; font-weight:300; max-width:280px; }
+.footer-col h5{
+  font-size:11.5px; text-transform:uppercase; letter-spacing:.08em;
+  color:var(--ink-faint); margin-bottom:18px; font-weight:600;
+}
+.footer-col a, .footer-col li{ display:block; font-size:13.5px; font-weight:300; color:var(--ink-dim); margin-bottom:11px; }
+.footer-col a:hover{ color:var(--rose-deep); }
+.footer-bottom{
+  border-top:1px solid var(--line);
+  padding-top:26px;
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;
+  font-size:11.5px; color:var(--ink-faint);
+}
+.footer-emergency{
+  display:inline-flex; align-items:center; gap:8px;
+  color:var(--rose-deep); font-weight:500;
+}
+.footer-emergency .dot{
+  width:7px;height:7px;border-radius:50%;background:var(--rose-deep);display:inline-block;
+}
+
+/* ---------- Floating WhatsApp ---------- */
+.float-whats{
+  position:fixed;
+  right:22px; bottom:22px;
+  z-index:900;
+  width:58px;height:58px;
+  border-radius:50%;
+  background:linear-gradient(135deg, var(--rose-bright), var(--rose-deep));
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 10px 30px -6px rgba(147,89,74,.55);
+  animation:float-bob 3s ease-in-out infinite;
+}
+@keyframes float-bob{
+  0%,100%{ transform:translateY(0); }
+  50%{ transform:translateY(-6px); }
+}
+.float-whats svg{ width:26px; height:26px; fill:#ffffff; }
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+@media (max-width: 980px){
+  .hero-grid{ grid-template-columns:1fr; }
+  .hero-visual{ order:-1; aspect-ratio:16/10; }
+  .about-grid{ grid-template-columns:1fr; }
+  .services-grid{ grid-template-columns:repeat(2,1fr); }
+  .gallery-grid{ grid-template-columns:repeat(2,1fr); }
+  .team-grid{ grid-template-columns:1fr; }
+  .stats-row{ grid-template-columns:repeat(2,1fr); row-gap:36px; }
+  .contact-grid{ grid-template-columns:1fr; }
+  .footer-grid{ grid-template-columns:1fr 1fr; }
+  .reviews-grid{ grid-template-columns:1fr; }
+}
+
+@media (max-width: 720px){
+  .nav-links{ display:none; }
+  .nav-cta{ display:none; }
+  .burger{ display:flex; }
+  .section{ padding:80px 0; }
+  .hero{ padding:150px 0 80px; }
+  .services-grid{ grid-template-columns:1fr; }
+  .gallery-grid{ grid-template-columns:1fr; }
+  .lightbox-inner{ grid-template-columns:1fr; }
+  .cta-band{ flex-direction:column; align-items:flex-start; padding:44px 26px; }
+  .footer-grid{ grid-template-columns:1fr; gap:32px; }
+  .hero-stats{ gap:26px; }
+  .stats-row{ grid-template-columns:1fr 1fr; }
+  .about-photos{ grid-template-columns:1fr 1fr; }
+  .hero-watermark{ display:none; }
+}
+
+@media (max-width: 420px){
+  .hero-actions .btn{ flex:1; justify-content:center; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
+  html{ scroll-behavior:auto; }
+}
+
+/* Focus visibility */
+a:focus-visible, button:focus-visible{
+  outline:2px solid var(--rose-deep);
+  outline-offset:3px;
+  border-radius:4px;
+}
+
+
+  /* RESPONSIVE FIXES */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 100%; overflow-x: hidden; }
+  
+  @media (max-width: 768px) {
+    .wrap { padding: 0 16px !important; }
+    .hero-grid { grid-template-columns: 1fr !important; gap: 30px !important; }
+    .about-grid { grid-template-columns: 1fr !important; }
+    .carousel { gap: 16px !important; }
+    .card { min-width: 280px !important; }
+    .section-head { flex-direction: column !important; gap: 20px !important; }
+    .navlinks { display: none !important; }
+    .burger { display: flex !important; }
+    h1 { font-size: 28px !important; }
+    h2 { font-size: 24px !important; }
+    h3 { font-size: 18px !important; }
+    section { padding: 60px 0 !important; }
+  }
+  
+  @media (max-width: 480px) {
+    .wrap { padding: 0 12px !important; }
+    h1 { font-size: 22px !important; }
+    h2 { font-size: 18px !important; }
+    .hero { padding-top: 80px !important; }
+    .hero-visual { height: 300px !important; }
+    .stat-card { position: static !important; margin-top: 20px !important; }
+  }
+
+</style>
+</head>
+<body id="top">
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+<div class="container nav-inner">
+<a class="logo" href="#top">
+<img alt="Dentistas 24hs Sorocaba" fetchpriority="high" loading="eager" src="./images/logo-ultra-luxury.webp" style="height: 40px; filter: brightness(0.2) sepia(1) hue-rotate(80deg) saturate(3);"/>
+</a>
+<nav class="nav-links">
+<a href="#servicos">Serviços</a>
+<a href="#antes-depois">Antes e Depois</a>
+<a href="#equipe">Equipe</a>
+<a href="#avaliacoes">Avaliações</a>
+<a href="#contato">Contato</a>
+</nav>
+<div class="nav-cta">
+<div class="nav-phone">
+<small>Urgência agora</small>
+<strong>(15) 99764-7172</strong>
+</div>
+<a class="btn btn-primary" href="https://wa.me/5515997647172" rel="noopener" target="_blank">Chamar no WhatsApp</a>
+</div>
+<button aria-expanded="false" aria-label="Abrir menu" class="burger" id="burger">
+<span></span><span></span><span></span>
+</button>
+</div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+<a href="#servicos">Serviços</a>
+<a href="#antes-depois">Antes e Depois</a>
+<a href="#equipe">Equipe</a>
+<a href="#avaliacoes">Avaliações</a>
+<a href="#contato">Contato</a>
+<a class="btn btn-primary btn-block" href="https://wa.me/5515997647172" rel="noopener" target="_blank">Chamar no WhatsApp</a>
+</div>
+<!-- ============ MARQUEE ============ -->
+<div class="marquee-strip">
+<div class="marquee-track">
+<span>Urgência 24 horas</span><span>Todos os dias do ano</span><span>Raio-X no local</span><span>Atendimento particular</span><span>Centro de Sorocaba</span>
+<span>Urgência 24 horas</span><span>Todos os dias do ano</span><span>Raio-X no local</span><span>Atendimento particular</span><span>Centro de Sorocaba</span>
+</div>
+</div>
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+<img alt="Background Premium" class="hero-bg-image" decoding="async" loading="lazy" src="images/hero-clean-fachada.webp"/>
+<div class="hero-overlay-luxury"></div>
+<div class="container hero-grid">
+<div class="reveal in">
+<span class="eyebrow" style="color: var(--rose-bright);">Urgência odontológica · Sorocaba</span>
+<h1 class="hero-title">CUIDADO DE<br/><span class="line2" style="color: var(--rose-bright);">excelência</span>, a qualquer hora.</h1>
+<p class="hero-lede">Clínica de urgência odontológica aberta 24 horas por dia, todos os dias — inclusive sábados, domingos e feriados. Estrutura completa, com raio-X no local, no Centro de Sorocaba.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="https://wa.me/5515997647172" rel="noopener" target="_blank">Chamar no WhatsApp</a>
+<a class="btn btn-ghost" href="tel:+551599647172" style="color: #fff; border-color: rgba(255,255,255,0.4);">Ligar agora</a>
+</div>
+<div class="hero-stats" style="border-top-color: rgba(255,255,255,0.15);">
+<div class="hero-stat"><b style="color: #fff;">24/7</b><span style="color: rgba(255,255,255,0.6);">Urgência sempre disponível</span></div>
+<div class="hero-stat"><b style="color: #fff;">4.8★</b><span style="color: rgba(255,255,255,0.6);">Nota média no Google</span></div>
+<div class="hero-stat"><b style="color: #fff;">Rx</b><span style="color: rgba(255,255,255,0.6);">Estrutura completa no local</span></div>
+</div>
+</div>
+<div class="hero-visual-luxury reveal reveal-delay-2" style="position: relative; z-index: 2;">
+<div class="hero-badge" style="position: static; background: rgba(255,255,255,0.08); backdrop-filter: blur(25px); border-color: rgba(255,255,255,0.15); color: #fff; padding: 20px 28px; border-radius: 8px;">
+<span class="pulse" style="background: var(--rose-bright);"></span>
+<div>
+<strong style="color: #fff; font-size: 15px;">Plantão ativo</strong>
+<small style="color: rgba(255,255,255,0.8); font-size: 12px;">Atendimento imediato</small>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============ SERVIÇOS ============ -->
+<section class="section services" id="servicos">
+<div class="container">
+<div class="section-head reveal">
+<div>
+<span class="eyebrow">O que tratamos</span>
+<h2 class="section-title">SERVIÇOS <em>essenciais</em></h2>
+</div>
+<p class="section-sub">Estrutura completa para diagnosticar e resolver, com agilidade e cuidado, a qualquer hora do dia ou da noite.</p>
+</div>
+<div class="services-grid reveal">
+<div class="service-card">
+<div class="service-num">01</div>
+<h3>Urgências 24h</h3>
+<p>Dores agudas, traumas e infecções tratados imediatamente, todos os dias do ano.</p>
+<span class="tag">Prioridade</span>
+</div>
+<div class="service-card">
+<div class="service-num">02</div>
+<h3>Cirurgia Oral</h3>
+<p>Extrações e pequenas cirurgias realizadas com conforto, segurança e técnica precisa.</p>
+<span class="tag">Especializado</span>
+</div>
+<div class="service-card">
+<div class="service-num">03</div>
+<h3>Tratamento de Canal</h3>
+<p>Endodontia completa para salvar o dente e eliminar a dor de forma definitiva.</p>
+<span class="tag">Alta precisão</span>
+</div>
+<div class="service-card">
+<div class="service-num">04</div>
+<h3>Odontopediatria</h3>
+<p>Atendimento acolhedor para crianças, mesmo em situações de urgência.</p>
+<span class="tag">Família</span>
+</div>
+<div class="service-card">
+<div class="service-num">05</div>
+<h3>Raio-X no Local</h3>
+<p>Diagnóstico por imagem imediato, sem precisar sair da clínica.</p>
+<span class="tag">Diagnóstico</span>
+</div>
+<div class="service-card">
+<div class="service-num">06</div>
+<h3>Reabilitação Estética</h3>
+<p>Restaurações e ajustes que devolvem função e beleza ao sorriso.</p>
+<span class="tag">Estética</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ============ ANTES E DEPOIS ============ -->
+<section class="section" id="antes-depois">
+<div class="container">
+<div class="section-head reveal">
+<div>
+<span class="eyebrow">Resultados reais</span>
+<h2 class="section-title">ANTES E <em>depois</em></h2>
+</div>
+<p class="section-sub">Clique em qualquer imagem para ampliar e comparar o resultado em tela cheia.</p>
+</div>
+<div class="gallery-grid reveal">
+<div class="gallery-item" data-after="./images/IMG_3099.webp" data-before="./images/IMG_3098.webp" data-title="Reabilitação estética">
+<div class="compare">
+<img alt="Sorriso antes do tratamento odontológico 1" decoding="async" loading="lazy" src="./images/IMG_3098.webp"/>
+<img alt="Sorriso depois do tratamento odontológico 1" decoding="async" loading="lazy" src="./images/IMG_3099.webp"/>
+</div>
+<span class="lbl antes">Antes</span>
+<span class="lbl depois">Depois</span>
+<div class="divider"></div>
+<span class="zoom-hint">Ampliar</span>
+</div>
+<div class="gallery-item" data-after="./images/IMG_3101.webp" data-before="./images/IMG_3100.webp" data-title="Restauração e clareamento">
+<div class="compare">
+<img alt="Sorriso antes do tratamento odontológico 2" decoding="async" loading="lazy" src="./images/IMG_3100.webp"/>
+<img alt="Sorriso depois do tratamento odontológico 2" decoding="async" loading="lazy" src="./images/IMG_3101.webp"/>
+</div>
+<span class="lbl antes">Antes</span>
+<span class="lbl depois">Depois</span>
+<div class="divider"></div>
+<span class="zoom-hint">Ampliar</span>
+</div>
+<div class="gallery-item" data-after="./images/IMG_3103.webp" data-before="./images/IMG_3102.webp" data-title="Tratamento de urgência">
+<div class="compare">
+<img alt="Sorriso antes do tratamento odontológico 3" decoding="async" loading="lazy" src="./images/IMG_3102.webp"/>
+<img alt="Sorriso depois do tratamento odontológico 3" decoding="async" loading="lazy" src="./images/IMG_3103.webp"/>
+</div>
+<span class="lbl antes">Antes</span>
+<span class="lbl depois">Depois</span>
+<div class="divider"></div>
+<span class="zoom-hint">Ampliar</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ============ SOBRE ============ -->
+<section class="section about" id="sobre">
+<div class="container about-grid">
+<div class="about-copy reveal reveal-delay-2">
+<span class="eyebrow">Por que a clínica</span>
+<h2 class="section-title">CUIDADO QUE<br/>TE <em>acompanha</em></h2>
+<p>Somos um centro de atendimento odontológico conhecido pelo pronto atendimento, com estrutura completa — incluindo raio-X — para diagnosticar e intervir rapidamente. Localizados no Centro de Sorocaba, funcionamos 24 horas, todos os dias.</p>
+<div class="feature-list">
+<div class="feature-item">
+<div class="feature-icon">24</div>
+<div>
+<h4>Aberto 24 horas, todos os dias</h4>
+<p>Inclusive sábados, domingos e feriados nacionais e municipais.</p>
+</div>
+</div>
+<div class="feature-item">
+<div class="feature-icon">Rx</div>
+<div>
+<h4>Raio-X no local</h4>
+<p>Diagnóstico e intervenção rápida, sem precisar sair da clínica.</p>
+</div>
+</div>
+<div class="feature-item">
+<div class="feature-icon">★</div>
+<div>
+<h4>4.8 de avaliação no Google</h4>
+<p>Empatia, atenção e clareza nas explicações reconhecidas pelos pacientes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============ EQUIPE ============ -->
+<section class="section services" id="equipe">
+<div class="container">
+<div class="section-head reveal">
+<div>
+<span class="eyebrow">Quem cuida de você</span>
+<h2 class="section-title">NOSSA <em>equipe</em></h2>
+</div>
+<p class="section-sub">Cirurgiões-dentistas com experiência em diversas áreas da odontologia.</p>
+</div>
+<div class="team-grid reveal">
+<div class="team-card">
+<div class="team-avatar">AG</div>
+<div>
+<h3>Dr. André Gusman</h3>
+<div class="role">Cirurgião-Dentista</div>
+<p>Experiência em urgências, cirurgia oral e reabilitação estética do sorriso.</p>
+<a class="tel" href="tel:+5515991574343">(15) 99157-4343</a>
+</div>
+</div>
+<div class="team-card">
+<div class="team-avatar">WN</div>
+<div>
+<h3>Dr. Walter Neto</h3>
+<div class="role">Cirurgião-Dentista</div>
+<p>Atuação em diversas áreas da odontologia, com foco em atendimento humanizado.</p>
+<a class="tel" href="tel:+5515997343585">(15) 99734-3585</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============ STATS BAND ============ -->
+<div class="stats-band">
+<div class="container stats-row">
+<div><b>24<span class="accent">/7</span></b><span>Urgência sempre disponível</span></div>
+<div><b>4.8<span class="accent">★</span></b><span>Nota média no Google</span></div>
+<div><b><span class="accent">Rx</span></b><span>Estrutura completa no local</span></div>
+<div><b><span class="accent">2</span></b><span>Dentistas dedicados</span></div>
+</div>
+</div>
+<!-- ============ AVALIAÇÕES ============ -->
+<section class="section" id="avaliacoes">
+<div class="container">
+<div class="section-head reveal">
+<div>
+<span class="eyebrow">Quem já foi atendido</span>
+<h2 class="section-title">AVALIAÇÕES <em>de pacientes</em></h2>
+</div>
+<p class="section-sub">4.8 de nota média no Google, com destaque para empatia, atenção e clareza nas explicações.</p>
+</div>
+<div class="reviews-grid reveal">
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<p>“Atendimento rápido e humano em plena madrugada. O Dr. André explicou cada etapa e resolveu minha dor na hora.”</p>
+<div class="review-name">Paciente Google</div>
+<div class="review-src">Avaliação verificada</div>
+</div>
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<p>“Fui num domingo com muita dor e fui recebido com atenção e profissionalismo. Estrutura completa, com raio-X na hora.”</p>
+<div class="review-name">Paciente Google</div>
+<div class="review-src">Avaliação verificada</div>
+</div>
+<div class="review-card">
+<div class="stars">★★★★★</div>
+<p>“Clareza nas explicações do tratamento e cuidado em cada detalhe. Recomendo para quem precisa de urgência de verdade.”</p>
+<div class="review-name">Paciente Google</div>
+<div class="review-src">Avaliação verificada</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============ CTA BAND ============ -->
+<section class="section" style="padding-top:0;">
+<div class="cta-band reveal">
+<h2>Com dor de dente agora?<br/>Fale com a gente neste instante.</h2>
+<div class="btns">
+<a class="btn btn-primary" href="https://wa.me/5515997647172" rel="noopener" target="_blank">WhatsApp Urgência</a>
+<a class="btn btn-ghost" href="tel:+551599647172">(15) 99764-7172</a>
+</div>
+</div>
+</section>
+<!-- ============ CONTATO ============ -->
+<section class="section" id="contato">
+<div class="container">
+<div class="section-head reveal">
+<div>
+<span class="eyebrow">Fale conosco</span>
+<h2 class="section-title">VISITE OU <em>ligue</em></h2>
+</div>
+<p class="section-sub">Atendimento particular — não atendemos convênios. Estamos no Centro de Sorocaba, 24 horas por dia.</p>
+</div>
+<div class="contact-grid reveal">
+<div>
+<div class="info-card">
+<h4>Endereço</h4>
+<div class="val">Rua Professor Toledo, 264 — Centro
+              <small>Sorocaba - SP, 18035-110, Brasil</small>
+</div>
+</div>
+<div class="info-card">
+<h4>Telefones &amp; WhatsApp</h4>
+<div class="info-list">
+<a href="https://wa.me/5515997647172" rel="noopener" target="_blank">(15) 99764-7172 — WhatsApp geral</a>
+<a href="tel:+5515991574343">(15) 99157-4343 — Dr. André</a>
+<a href="tel:+5515997343585">(15) 99734-3585 — Dr. Walter Neto</a>
+</div>
+</div>
+<div class="info-card">
+<h4>E-mail</h4>
+<div class="info-list">
+<a href="mailto:dr.andregusman@gmail.com">dr.andregusman@gmail.com</a>
+</div>
+</div>
+</div>
+<div class="location-card">
+<div class="location-visual">
+<div class="location-grid"></div>
+<div class="location-compass">
+<span>N</span>
+</div>
+<div class="location-pin">
+<span class="pin-pulse"></span>
+<span class="pin-dot"></span>
+</div>
+<div class="location-city">
+<strong>Sorocaba</strong>
+<small>São Paulo, Brasil</small>
+</div>
+</div>
+<div class="location-info">
+<h4>Rua Professor Toledo, 264</h4>
+<p>Centro, Sorocaba - SP, 18035-110</p>
+<div class="location-actions">
+<a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Professor+Toledo%2C+264%2C+Centro%2C+Sorocaba+-+SP%2C+18035-110" rel="noopener" target="_blank">Abrir no Google Maps</a>
+<a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua+Professor+Toledo%2C+264%2C+Centro%2C+Sorocaba+-+SP%2C+18035-110" rel="noopener" target="_blank">Como chegar</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- ============ FOOTER ============ -->
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="logo" href="#top">
+<img alt="Dentistas 24hs Sorocaba" decoding="async" loading="lazy" src="./images/logo-ultra-luxury.webp" style="height: 40px; filter: brightness(0.2) sepia(1) hue-rotate(80deg) saturate(3);"/>
+</a>
+<p>Urgência odontológica 24 horas em Sorocaba. Dores e traumas resolvidos de forma imediata, todos os dias do ano.</p>
+</div>
+<div class="footer-col">
+<h5>Navegação</h5>
+<a href="#servicos">Serviços</a>
+<a href="#antes-depois">Antes e Depois</a>
+<a href="#equipe">Equipe</a>
+<a href="#avaliacoes">Avaliações</a>
+</div>
+<div class="footer-col">
+<h5>Serviços</h5>
+<li>Urgências 24h</li>
+<li>Cirurgia Oral</li>
+<li>Tratamento de Canal</li>
+<li>Odontopediatria</li>
+</div>
+<div class="footer-col">
+<h5>Contato</h5>
+<a href="https://wa.me/5515997647172" rel="noopener" target="_blank">(15) 99764-7172</a>
+<a href="mailto:dr.andregusman@gmail.com">dr.andregusman@gmail.com</a>
+<a href="#contato">Rua Prof. Toledo, 264 — Centro, Sorocaba</a>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Dentistas 24hs Sorocaba. Atendimento particular.</span>
+<span class="footer-emergency"><span class="dot"></span> Plantão de urgência ativo agora</span>
+</div>
+</div>
+</footer>
+<!-- ============ FLOATING WHATSAPP ============ -->
+<a aria-label="Falar no WhatsApp" class="float-whats" href="https://wa.me/5515997647172" rel="noopener" target="_blank">
+<svg viewbox="0 0 32 32"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.607 1.902 6.472L4 29l7.73-1.878A11.94 11.94 0 0 0 16.001 27C22.629 27 28 21.627 28 15S22.629 3 16.001 3zm6.964 16.972c-.297.836-1.47 1.53-2.407 1.73-.64.137-1.475.246-4.29-.92-3.6-1.49-5.918-5.14-6.1-5.38-.176-.24-1.46-1.943-1.46-3.706 0-1.764.925-2.63 1.253-2.99.328-.36.716-.45.955-.45.24 0 .478.003.686.014.22.012.516-.084.807.616.297.717 1.01 2.48 1.098 2.66.088.18.147.39.03.63-.118.24-.176.39-.352.6-.176.21-.372.468-.53.63-.176.18-.36.375-.155.735.206.36.916 1.51 1.966 2.446 1.352 1.205 2.49 1.578 2.85 1.755.36.176.57.147.78-.09.207-.24.885-1.03 1.122-1.383.235-.354.47-.294.79-.176.323.118 2.05.966 2.402 1.142.352.176.588.264.674.412.088.148.088.855-.208 1.692z"></path></svg>
+</a>
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox">
+<button aria-label="Fechar" class="lightbox-close" id="lightboxClose">✕</button>
+<div class="lightbox-inner" id="lightboxInner">
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* ---------- Navbar on scroll ---------- */
+  const navbar = document.getElementById('navbar');
+  const onScroll = () => {
+    if (window.scrollY > 24) navbar.classList.add('scrolled');
+    else navbar.classList.remove('scrolled');
+  };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* ---------- Mobile menu ---------- */
+  const burger = document.getElementById('burger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  function closeMenu() {
+    burger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  burger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    burger.classList.toggle('open', isOpen);
+    burger.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+
+  /* ---------- Scroll reveal ---------- */
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+
+  /* ---------- Lightbox: unificado (compara antes/depois e imagem única) ---------- */
+  const lightbox = document.getElementById('lightbox');
+  const lightboxInner = document.getElementById('lightboxInner');
+  const lightboxClose = document.getElementById('lightboxClose');
+
+  function openCompareLightbox(beforeSrc, afterSrc, title) {
+    lightboxInner.className = 'lightbox-inner';
+    lightboxInner.innerHTML = `
+      <div class="col"><span>Antes</span><img loading="lazy" src="${beforeSrc}" alt="Antes — ${title}"></div>
+      <div class="col"><span>Depois</span><img loading="lazy" src="${afterSrc}" alt="Depois — ${title}"></div>
+    `;
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function openSingleLightbox(fullSrc, caption) {
+    lightboxInner.className = 'lightbox-inner single';
+    lightboxInner.innerHTML = `
+      <div class="col"><img loading="lazy" src="${fullSrc}" alt="${caption || ''}"></div>
+      ${caption ? `<div class="lightbox-caption">${caption}</div>` : ''}
+    `;
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+    lightboxInner.innerHTML = '';
+  }
+
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const before = item.getAttribute('data-before');
+      const after = item.getAttribute('data-after');
+      const title = item.getAttribute('data-title') || '';
+      openCompareLightbox(before, after, title);
+    });
+  });
+
+  document.querySelectorAll('.zoomable').forEach(item => {
+    item.addEventListener('click', () => {
+      const full = item.getAttribute('data-full');
+      const caption = item.getAttribute('data-caption') || '';
+      openSingleLightbox(full, caption);
+    });
+  });
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeLightbox();
+      closeMenu();
+    }
+  });
+
+  /* ---------- Smooth anchor offset for fixed navbar ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const targetId = this.getAttribute('href');
+      if (targetId.length > 1) {
+        const target = document.querySelector(targetId);
+        if (target) {
+          e.preventDefault();
+          const offset = 84;
+          const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      }
+    });
+  });
+
+});
+</script>
+</body>
+</html>
+<!-- Force redeploy 1 -->

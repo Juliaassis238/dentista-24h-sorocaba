@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="luxuryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B3A26;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D5A3D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Ícone de dente estilizado com traços orgânicos e finos -->
+  <path d="M256 100c-40 0-80 15-80 70 0 40 15 60 30 110 8 25 15 50 15 75 0 10 8 18 18 18s18-8 18-18c0-25 8-50 8-75 0 0 0 0 0 0s0 0 0 0c0 25 8 50 8 75 0 10 8 18 18 18s18-8 18-18c0-25 7-50 15-75 15-50 30-70 30-110 0-55-40-70-80-70z" fill="none" stroke="url(#luxuryGrad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Brilho elegante -->
+  <path d="M340 140l8 20 20 8-20 8-8 20-8-20-20-8 20-8z" fill="#1B3A26"/>
+  <!-- Monograma ou iniciais -->
+  <text x="256" y="245" font-family="'Fraunces', serif" font-size="48" font-weight="300" fill="#1B3A26" text-anchor="middle" letter-spacing="0.2em">D24</text>
+</svg>
