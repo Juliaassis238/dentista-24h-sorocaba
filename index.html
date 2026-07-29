@@ -1147,7 +1147,10 @@ a:focus-visible, button:focus-visible{
 <main>
 <!-- ============ HERO ============ -->
 <section class="hero" id="top">
-<img alt="Background Premium" class="hero-bg-image" decoding="async" loading="lazy" src="images/hero-clean-fachada.webp"/>
+<picture>
+  <source media="(max-width: 768px)" srcset="images/hero-mobile.webp">
+  <img alt="Background Premium" class="hero-bg-image" decoding="async" loading="lazy" src="images/hero-desktop.webp"/>
+</picture>
 <div class="hero-overlay-luxury"></div>
 <div class="container hero-grid">
 <div class="reveal in">
